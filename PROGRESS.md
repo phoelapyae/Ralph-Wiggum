@@ -16,3 +16,7 @@
 ## Iteration 4
 
 - [x] Added a `<router-link>` to `/hello-agent` ("Say hello to the agent") on the index page in `app/src/components/HelloWorld.vue`, plus `.agent-link` styling in `app/src/style.css`. Verified `npm run build` succeeds.
+
+## Iteration 5
+
+- [x] Added confetti on title click: installed `canvas-confetti`, added a `celebrate()` handler in `app/src/components/HelloWorld.vue` and bound it to the `<h1>` with `@click`. Verified `npm run build` succeeds.
