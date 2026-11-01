@@ -12,14 +12,21 @@
       "git status*": "allow",
       "git diff*": "allow",
       "git log*": "allow",
+      "npm create *": "allow",
+      "npm install *": "allow",
       "npm run build*": "allow",
       "npm run dev*": "allow",
-      "npm install*": "allow",
-      "rm -rf *": "deny",
+      "* --version": "allow",
+      "* --help *": "allow",
+      "git add *": "allow",
+      "git commit *": "allow",
+      "rm *": "deny",
+      "git rm *": "deny",
       "sudo *": "deny"
     },
     "external_directory": {
-      "*": "ask"
+      "*": "ask",
+      "/tmp/**": "allow"
     }
   }
 }

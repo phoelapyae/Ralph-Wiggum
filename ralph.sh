@@ -7,7 +7,7 @@ ITERATIONS="${1:-10}"
 for ((i=1; i<=$ITERATIONS; i++)); do
   echo "--- Iteration $i of $ITERATIONS ---"
 
-  result=$(claude -p "$(cat PROMPT.md)")
+  result=$(opencode run --auto "$(cat PROMPT.md)")
 
   echo "$result"
 
