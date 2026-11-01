@@ -12,3 +12,7 @@
 ## Iteration 3
 
 - [x] Installed `vue-router@4`, added `app/src/router.js` with `/` (HelloWorld) and `/hello-agent` (new `app/src/views/HelloAgent.vue` rendering "Hello World! 🤖"), wired the router into `main.js`, and changed `App.vue` to render `<router-view />`. Verified `npm run build` succeeds.
+
+## Iteration 4
+
+- [x] Added a `<router-link>` to `/hello-agent` ("Say hello to the agent") on the index page in `app/src/components/HelloWorld.vue`, plus `.agent-link` styling in `app/src/style.css`. Verified `npm run build` succeeds.

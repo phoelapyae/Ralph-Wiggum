@@ -21,6 +21,7 @@ const count = ref(0)
     <button type="button" class="counter" @click="count++">
       Count is {{ count }}
     </button>
+    <router-link class="agent-link" to="/hello-agent">Say hello to the agent</router-link>
   </section>
 
   <div class="ticks"></div>
